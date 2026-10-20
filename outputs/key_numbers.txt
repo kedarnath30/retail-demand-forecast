@@ -1,0 +1,13 @@
+clean lines: 1,019,490  skus: 4,706  invoices: 39,007
+weeks: 103 (2009-11-30 to 2011-11-28)  revenue: 19,624,728
+A-class skus: 1029  forecast set: 583  share of total revenue: 54.3%
+best model: gbm
+         model  WAPE_%  bias_%  MAE_units
+           gbm    59.8    -7.1       58.4
+           ses    61.0    -4.0       59.6
+           ma4    61.8    -7.2       60.3
+         naive    73.3    -3.2       71.6
+seasonal_naive    98.7    33.1       96.3
+safety stock units model vs naive: 110,983 vs 144,648 (23.3% lower)
+safety stock value model vs naive: 218,595 vs 284,455
+example sku: 22355  median sku wape: 67.0%
