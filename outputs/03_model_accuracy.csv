@@ -1,0 +1,6 @@
+model,WAPE_%,bias_%,MAE_units
+gbm,59.8,-7.1,58.4
+ses,61.0,-4.0,59.6
+ma4,61.8,-7.2,60.3
+naive,73.3,-3.2,71.6
+seasonal_naive,98.7,33.1,96.3
